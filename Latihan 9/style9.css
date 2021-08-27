@@ -1,0 +1,21 @@
+/* Position: static (default), relative, absolute, fixed */
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.satu {
+    background-color: blueviolet;
+}
+
+.dua {
+    background-color: limegreen;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.tiga {
+    background-color: gold;
+}

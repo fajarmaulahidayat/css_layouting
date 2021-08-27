@@ -1,0 +1,33 @@
+/* Overlapping Margin
+Vertical akan diambil nilai margin terbesar
+Horizontal akan ditambahkan nilai left dan rigth */
+
+/* Negative Margin
+Benda akan bergerak berlawanan arah/ keluar dari area */
+
+/* Auto
+Kiri dan kanan harus auto */
+
+/* Shorthand
+Ketik Margin untuk 4 sisi sekaligus
+Pembacaan sesuai arah jarum jam, atas kanan bawah kiri
+auto memposisikan benda ditengah secara presisi */
+
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin: 10px 20px 30px 40px;
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.tiga {
+    width: 50px;
+    height: 50px;
+    background-color: lightcoral;
+}
